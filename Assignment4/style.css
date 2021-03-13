@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgb(228, 226, 226);
+}
+
+
+.login-wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60em;
+    padding: 50px;
+    background-color: white;
+}
+
+.login-l{
+    padding-left: 0;
+    padding-right: 0;
+    border-right: 4px solid rgba(83, 129, 254, 0.8);
+}
+
+.img_login{
+    width: 500px;
+}
+
+.img_register{
+    width: 400px;
+}
+
+.legend{
+    font-size: 32px;
+    font-weight: 600;
+    color: rgb(47, 46, 65);
+    margin-bottom: 24px;
+}
+
+.legend span{
+    font-size: 16px;
+    font-weight: 400;
+    color: salmon;
+    margin-left: 48px;
+}
+
+.form_group{
+    margin-bottom: 16px;
+}
+
+.login-r{
+    margin-left: 48px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="date"]
+{
+    width: 300px;
+    height: 40px;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid rgba(47, 46, 65, 0.5);
+    border-radius: 5px;
+}
+
+.login_zone,
+.register_zone{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login_zone a,
+.register_zone a{
+    text-decoration: none;
+    color: gray;
+}
+
+.form_btn{
+    padding: 10px 15px;
+    font-size: 16px;
+    color: whitesmoke;
+    background-color: rgba(83, 129, 254, 1);
+    border: none;
+}
+
+label{
+    margin-right: 5px;
+}
+
+
+
+.form_hidden{
+    display: none;
+}
