@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Square Game</title>
+
+    <!-- Bootstrap5 Framework CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <div class="container fixed-top">
+        <a href="../assignment.html" class="btn btn-dark btn-lg">Back</a>
+    </div>
+
+    <div class="container mx-auto py-5">
+        <div class="row">
+            <div class="col-12 my-3 col-md-6">
+                <h1>Square Game in 30 second</h1>
+                <p class="lead">Input a number and select color of box</p>
+
+                <label>Number of Box: </label>
+                <input type="number" min="0" class="form-control mb-4" id="number_box">
+
+                <label>Color: </label>
+                <select name="color" class="form-select mb-4" id="colorBox">
+                    <option value="red">Red</option>
+                    <option value="blue">Blue</option>
+                    <option value="green">Green</option>
+                </select>
+
+                <button type="button" class="btn btn-success btn-lg" id="btn-start">Start</button>
+                <span class="lead ms-3" id="btn-sub">Press "Start" button and press the color boxes in 30 second</span>
+            </div>
+
+            <div class="col-12 my-3 col-md-6">
+                <div class="game-container">
+                    <div class="mb-3">
+                        <span class="h3 ">Time:</span>
+                        <span class="h3" id="timer-Text"></span>
+                    </div>
+    
+                    <div class="square-container" id="sq-container">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+    
+    <!-- Bootstrap5 Framework JS -->
+    <script src="../js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>
